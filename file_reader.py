@@ -53,10 +53,10 @@ class FileReader:
             return '[ERROR] HTTP/1.1 404 Not Found\r\n'.encode('utf-8')
 
 #testing code
-p1 = FileReader()
+#p1 = FileReader()
 #value = p1.head("www/imgs/picture5.jpg", "cookie")
 #print(value)
-get_request = p1.get("www", "cookie")
-print(get_request)
+#get_request = p1.get("www", "cookie")
+#print(get_request)
 #get_request2 = p1.get("www/imgs/picture5.jpg", "cookie")
 #print(get_request2)
