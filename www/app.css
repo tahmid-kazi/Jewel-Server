@@ -1,0 +1,70 @@
+/*Write our CSS in here*/
+
+
+/*import the font you want to use (either online or offline?)*/
+
+
+/*(6.23.20) unless the computer has internet, you cant use this font: checked on Barracuda*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+/*the tag that we are selecting*/
+
+h1 {
+    /* how we will be styling this tag */
+    color: rgb(40, 214, 127);
+    text-transform: uppercase;
+    border-top: 5px solid;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(245, 164, 42);
+    font-family: "Source Code Pro";
+    /*comes from google, not on pc or browser*/
+    font-weight: 200;
+}
+
+img {
+    height: 500px;
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(40, 214, 127);
+    border: 1px solid rgb(40, 214, 127);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    outline: none;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: rgb(40, 214, 127);
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+}
