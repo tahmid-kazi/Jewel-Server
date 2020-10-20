@@ -44,6 +44,7 @@ class FileReader:
                 mimetype = 'text/txt'
             else:
                 mimetype = 'unsupported file type! (for now)'
+            header += 'Server: tk3kb\r\n'
             header += 'Content-Type: '+str(mimetype)+'\r\n'
             header += 'Content Length(bytes): '+str(size)+'\r\n'
             return header.encode('utf-8')
